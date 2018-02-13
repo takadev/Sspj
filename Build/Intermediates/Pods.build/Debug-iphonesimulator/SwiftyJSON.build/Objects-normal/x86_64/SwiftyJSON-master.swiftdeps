@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "52e7750a69aff7005bb9a1c85d615cf7"
+build_time: [1518169762, 507735000]
+inputs:
+  "/Users/TK/projects/Swift/NetworkViewer/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1518165996, 0]

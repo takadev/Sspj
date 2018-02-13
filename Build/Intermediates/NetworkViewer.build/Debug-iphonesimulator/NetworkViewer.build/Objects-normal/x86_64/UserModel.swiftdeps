@@ -1,0 +1,80 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UserModel"
+provides-nominal:
+- "13NetworkViewer9UserModelC"
+provides-member:
+- ["13NetworkViewer9UserModelC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Int"
+- "NSObject"
+- "String"
+- "UserModel"
+depends-member:
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", ""]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", ""]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "date"]
+- ["So8NSObjectC", "email"]
+- ["So8NSObjectC", "id"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "introduction"]
+- ["So8NSObjectC", "name"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", ""]
+- ["13NetworkViewer9UserModelC", "Int"]
+- ["13NetworkViewer9UserModelC", "String"]
+- ["13NetworkViewer9UserModelC", "date"]
+- ["13NetworkViewer9UserModelC", "deinit"]
+- ["13NetworkViewer9UserModelC", "email"]
+- ["13NetworkViewer9UserModelC", "id"]
+- ["13NetworkViewer9UserModelC", "init"]
+- ["13NetworkViewer9UserModelC", "introduction"]
+- ["13NetworkViewer9UserModelC", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "13NetworkViewer9UserModelC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "e84dbfbaaa93321be4e786b7843b5db7"

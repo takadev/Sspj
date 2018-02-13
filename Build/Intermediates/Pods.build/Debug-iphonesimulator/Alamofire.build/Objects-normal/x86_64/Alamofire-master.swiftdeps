@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "0be982380f729ed140e0baae664fcec9"
+build_time: [1518169826, 145549000]
+inputs:
+  "/Users/TK/projects/Swift/NetworkViewer/Pods/Alamofire/Source/AFError.swift": [1518165993, 0]
+  "/Users/TK/projects/Swift/NetworkViewer/Pods/Alamofire/Source/Alamofire.swift": [1518165993, 0]
+  "/Users/TK/projects/Swift/NetworkViewer/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1518165993, 0]
+  "/Users/TK/projects/Swift/NetworkViewer/Pods/Alamofire/Source/MultipartFormData.swift": [1518165993, 0]
+  "/Users/TK/projects/Swift/NetworkViewer/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1518165993, 0]
+  "/Users/TK/projects/Swift/NetworkViewer/Pods/Alamofire/Source/Notifications.swift": [1518165993, 0]
+  "/Users/TK/projects/Swift/NetworkViewer/Pods/Alamofire/Source/ParameterEncoding.swift": [1518165993, 0]
+  "/Users/TK/projects/Swift/NetworkViewer/Pods/Alamofire/Source/Request.swift": [1518165993, 0]
+  "/Users/TK/projects/Swift/NetworkViewer/Pods/Alamofire/Source/Response.swift": [1518165993, 0]
+  "/Users/TK/projects/Swift/NetworkViewer/Pods/Alamofire/Source/ResponseSerialization.swift": [1518165993, 0]
+  "/Users/TK/projects/Swift/NetworkViewer/Pods/Alamofire/Source/Result.swift": [1518165993, 0]
+  "/Users/TK/projects/Swift/NetworkViewer/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1518165993, 0]
+  "/Users/TK/projects/Swift/NetworkViewer/Pods/Alamofire/Source/SessionDelegate.swift": [1518165993, 0]
+  "/Users/TK/projects/Swift/NetworkViewer/Pods/Alamofire/Source/SessionManager.swift": [1518165993, 0]
+  "/Users/TK/projects/Swift/NetworkViewer/Pods/Alamofire/Source/TaskDelegate.swift": [1518165993, 0]
+  "/Users/TK/projects/Swift/NetworkViewer/Pods/Alamofire/Source/Timeline.swift": [1518165993, 0]
+  "/Users/TK/projects/Swift/NetworkViewer/Pods/Alamofire/Source/Validation.swift": [1518165993, 0]

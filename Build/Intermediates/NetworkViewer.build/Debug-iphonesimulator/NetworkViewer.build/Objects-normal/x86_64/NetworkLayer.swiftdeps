@@ -1,0 +1,492 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NetworkStartHandler"
+- "NetworkErrorHandler"
+- "NetworkFinishHandler"
+- "NetworkLayer"
+provides-nominal:
+- "13NetworkViewer0A5LayerC"
+provides-member:
+- ["13NetworkViewer0A5LayerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "API"
+- "Alamofire"
+- "AnyObject"
+- "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- "DataRequest"
+- !private "DataResponse"
+- !private "Date"
+- !private "DateFormatter"
+- !private "JSON"
+- !private "JSONEncoding"
+- !private "JsonParser"
+- "NSError"
+- "NSObject"
+- "NetworkErrorHandler"
+- "NetworkFinishHandler"
+- "NetworkLayer"
+- "NetworkStartHandler"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "Void"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["13NetworkViewer3APIO", "deinit"]
+- !private ["13NetworkViewer3APIO", "method"]
+- !private ["13NetworkViewer3APIO", "path"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "Alamofire"]
+- !private ["s7CVarArgP", "Date"]
+- !private ["s7CVarArgP", "DateFormatter"]
+- !private ["s7CVarArgP", "JSON"]
+- !private ["s7CVarArgP", "JSONEncoding"]
+- !private ["s7CVarArgP", "JsonParser"]
+- !private ["s7CVarArgP", "alamofireManager"]
+- !private ["s7CVarArgP", "api"]
+- !private ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "error"]
+- !private ["s7CVarArgP", "finish"]
+- !private ["s7CVarArgP", "getMethod"]
+- !private ["s7CVarArgP", "headers"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "parameters"]
+- !private ["s7CVarArgP", "parseJson"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "request"]
+- !private ["s7CVarArgP", "sessionConfiguration"]
+- !private ["s7CVarArgP", "sharedInstance"]
+- !private ["s7CVarArgP", "showApiLog"]
+- !private ["s7CVarArgP", "start"]
+- !private ["s7CVarArgP", "string"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Alamofire"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "JSON"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONEncoding"]
+- !private ["s28CustomDebugStringConvertibleP", "JsonParser"]
+- !private ["s28CustomDebugStringConvertibleP", "alamofireManager"]
+- !private ["s28CustomDebugStringConvertibleP", "api"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "failure"]
+- !private ["s28CustomDebugStringConvertibleP", "finish"]
+- !private ["s28CustomDebugStringConvertibleP", "getMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "headers"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "parameters"]
+- !private ["s28CustomDebugStringConvertibleP", "parseJson"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "request"]
+- !private ["s28CustomDebugStringConvertibleP", "responseJSON"]
+- !private ["s28CustomDebugStringConvertibleP", "result"]
+- !private ["s28CustomDebugStringConvertibleP", "sessionConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "sharedInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "showApiLog"]
+- !private ["s28CustomDebugStringConvertibleP", "start"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "success"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Alamofire"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "DateFormatter"]
+- !private ["s23CustomStringConvertibleP", "JSON"]
+- !private ["s23CustomStringConvertibleP", "JSONEncoding"]
+- !private ["s23CustomStringConvertibleP", "JsonParser"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "alamofireManager"]
+- !private ["s23CustomStringConvertibleP", "api"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "error"]
+- !private ["s23CustomStringConvertibleP", "failure"]
+- !private ["s23CustomStringConvertibleP", "finish"]
+- !private ["s23CustomStringConvertibleP", "getMethod"]
+- !private ["s23CustomStringConvertibleP", "headers"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "parameters"]
+- !private ["s23CustomStringConvertibleP", "parseJson"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "request"]
+- !private ["s23CustomStringConvertibleP", "responseJSON"]
+- !private ["s23CustomStringConvertibleP", "result"]
+- !private ["s23CustomStringConvertibleP", "sessionConfiguration"]
+- !private ["s23CustomStringConvertibleP", "sharedInstance"]
+- !private ["s23CustomStringConvertibleP", "showApiLog"]
+- !private ["s23CustomStringConvertibleP", "start"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "success"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["9Alamofire11DataRequestC", "responseJSON"]
+- !private ["9Alamofire12DataResponseV", "result"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["So13DateFormatterC", "dateFormat"]
+- !private ["So13DateFormatterC", "init"]
+- !private ["So13DateFormatterC", "string"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "Alamofire"]
+- !private ["s9EquatableP", "Date"]
+- !private ["s9EquatableP", "DateFormatter"]
+- !private ["s9EquatableP", "JSON"]
+- !private ["s9EquatableP", "JSONEncoding"]
+- !private ["s9EquatableP", "JsonParser"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "alamofireManager"]
+- !private ["s9EquatableP", "api"]
+- !private ["s9EquatableP", "dateFormat"]
+- !private ["s9EquatableP", "delete"]
+- !private ["s9EquatableP", "error"]
+- !private ["s9EquatableP", "finish"]
+- !private ["s9EquatableP", "get"]
+- !private ["s9EquatableP", "getMethod"]
+- !private ["s9EquatableP", "headers"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "parameters"]
+- !private ["s9EquatableP", "parseJson"]
+- !private ["s9EquatableP", "patch"]
+- !private ["s9EquatableP", "post"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "put"]
+- !private ["s9EquatableP", "request"]
+- !private ["s9EquatableP", "sessionConfiguration"]
+- !private ["s9EquatableP", "sharedInstance"]
+- !private ["s9EquatableP", "showApiLog"]
+- !private ["s9EquatableP", "start"]
+- !private ["s9EquatableP", "string"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So9FormatterC", "dateFormat"]
+- !private ["So9FormatterC", "init"]
+- !private ["So9FormatterC", "string"]
+- !private ["9Alamofire10HTTPMethodO", "delete"]
+- !private ["9Alamofire10HTTPMethodO", "get"]
+- !private ["9Alamofire10HTTPMethodO", "patch"]
+- !private ["9Alamofire10HTTPMethodO", "post"]
+- !private ["9Alamofire10HTTPMethodO", "put"]
+- !private ["s8HashableP", "Alamofire"]
+- !private ["s8HashableP", "Date"]
+- !private ["s8HashableP", "DateFormatter"]
+- !private ["s8HashableP", "JSON"]
+- !private ["s8HashableP", "JSONEncoding"]
+- !private ["s8HashableP", "JsonParser"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "alamofireManager"]
+- !private ["s8HashableP", "api"]
+- !private ["s8HashableP", "dateFormat"]
+- !private ["s8HashableP", "delete"]
+- !private ["s8HashableP", "error"]
+- !private ["s8HashableP", "finish"]
+- !private ["s8HashableP", "get"]
+- !private ["s8HashableP", "getMethod"]
+- !private ["s8HashableP", "headers"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "parameters"]
+- !private ["s8HashableP", "parseJson"]
+- !private ["s8HashableP", "patch"]
+- !private ["s8HashableP", "post"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "put"]
+- !private ["s8HashableP", "request"]
+- !private ["s8HashableP", "sessionConfiguration"]
+- !private ["s8HashableP", "sharedInstance"]
+- !private ["s8HashableP", "showApiLog"]
+- !private ["s8HashableP", "start"]
+- !private ["s8HashableP", "string"]
+- ["s8HashableP", ""]
+- !private ["10SwiftyJSON0B0V", "init"]
+- !private ["9Alamofire12JSONEncodingV", "default"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["13NetworkViewer10JsonParserC", "parseJson"]
+- !private ["13NetworkViewer10JsonParserC", "sharedInstance"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "dateFormat"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "API"]
+- ["So8NSObjectC", "Alamofire"]
+- ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "DataRequest"]
+- !private ["So8NSObjectC", "DataResponse"]
+- !private ["So8NSObjectC", "Date"]
+- !private ["So8NSObjectC", "DateFormatter"]
+- !private ["So8NSObjectC", "JSON"]
+- !private ["So8NSObjectC", "JSONEncoding"]
+- !private ["So8NSObjectC", "JsonParser"]
+- !private ["So8NSObjectC", "NSError"]
+- ["So8NSObjectC", "NetworkErrorHandler"]
+- ["So8NSObjectC", "NetworkFinishHandler"]
+- ["So8NSObjectC", "NetworkStartHandler"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", "alamofireManager"]
+- ["So8NSObjectC", "api"]
+- !private ["So8NSObjectC", "dateFormat"]
+- ["So8NSObjectC", "error"]
+- ["So8NSObjectC", "finish"]
+- ["So8NSObjectC", "getMethod"]
+- ["So8NSObjectC", "headers"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "parameters"]
+- !private ["So8NSObjectC", "parseJson"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "request"]
+- ["So8NSObjectC", "requestApi"]
+- ["So8NSObjectC", "sessionConfiguration"]
+- ["So8NSObjectC", "setErrorHandler"]
+- ["So8NSObjectC", "setFinishHandler"]
+- ["So8NSObjectC", "setStartHandler"]
+- !private ["So8NSObjectC", "sharedInstance"]
+- ["So8NSObjectC", "showApiLog"]
+- ["So8NSObjectC", "start"]
+- !private ["So8NSObjectC", "string"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "Alamofire"]
+- !private ["So16NSObjectProtocolP", "Date"]
+- !private ["So16NSObjectProtocolP", "DateFormatter"]
+- !private ["So16NSObjectProtocolP", "JSON"]
+- !private ["So16NSObjectProtocolP", "JSONEncoding"]
+- !private ["So16NSObjectProtocolP", "JsonParser"]
+- !private ["So16NSObjectProtocolP", "alamofireManager"]
+- !private ["So16NSObjectProtocolP", "api"]
+- !private ["So16NSObjectProtocolP", "dateFormat"]
+- !private ["So16NSObjectProtocolP", "error"]
+- !private ["So16NSObjectProtocolP", "finish"]
+- !private ["So16NSObjectProtocolP", "getMethod"]
+- !private ["So16NSObjectProtocolP", "headers"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "parameters"]
+- !private ["So16NSObjectProtocolP", "parseJson"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "request"]
+- !private ["So16NSObjectProtocolP", "sessionConfiguration"]
+- !private ["So16NSObjectProtocolP", "sharedInstance"]
+- !private ["So16NSObjectProtocolP", "showApiLog"]
+- !private ["So16NSObjectProtocolP", "start"]
+- !private ["So16NSObjectProtocolP", "string"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- ["13NetworkViewer0A5LayerC", "API"]
+- ["13NetworkViewer0A5LayerC", "Alamofire"]
+- ["13NetworkViewer0A5LayerC", "AnyObject"]
+- ["13NetworkViewer0A5LayerC", "DataRequest"]
+- !private ["13NetworkViewer0A5LayerC", "DataResponse"]
+- !private ["13NetworkViewer0A5LayerC", "Date"]
+- !private ["13NetworkViewer0A5LayerC", "DateFormatter"]
+- !private ["13NetworkViewer0A5LayerC", "JSON"]
+- !private ["13NetworkViewer0A5LayerC", "JSONEncoding"]
+- !private ["13NetworkViewer0A5LayerC", "JsonParser"]
+- !private ["13NetworkViewer0A5LayerC", "NSError"]
+- ["13NetworkViewer0A5LayerC", "NetworkErrorHandler"]
+- ["13NetworkViewer0A5LayerC", "NetworkFinishHandler"]
+- ["13NetworkViewer0A5LayerC", "NetworkStartHandler"]
+- ["13NetworkViewer0A5LayerC", "String"]
+- !private ["13NetworkViewer0A5LayerC", "Void"]
+- ["13NetworkViewer0A5LayerC", "alamofireManager"]
+- ["13NetworkViewer0A5LayerC", "api"]
+- ["13NetworkViewer0A5LayerC", "deinit"]
+- ["13NetworkViewer0A5LayerC", "error"]
+- ["13NetworkViewer0A5LayerC", "finish"]
+- ["13NetworkViewer0A5LayerC", "getMethod"]
+- ["13NetworkViewer0A5LayerC", "headers"]
+- ["13NetworkViewer0A5LayerC", "init"]
+- ["13NetworkViewer0A5LayerC", "parameters"]
+- !private ["13NetworkViewer0A5LayerC", "print"]
+- ["13NetworkViewer0A5LayerC", "request"]
+- ["13NetworkViewer0A5LayerC", "requestApi"]
+- !private ["13NetworkViewer0A5LayerC", "sessionConfiguration"]
+- ["13NetworkViewer0A5LayerC", "setErrorHandler"]
+- ["13NetworkViewer0A5LayerC", "setFinishHandler"]
+- ["13NetworkViewer0A5LayerC", "setStartHandler"]
+- ["13NetworkViewer0A5LayerC", "showApiLog"]
+- ["13NetworkViewer0A5LayerC", "start"]
+- !private ["9Alamofire17ParameterEncodingP", "default"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "delete"]
+- !private ["s16RawRepresentableP", "get"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "patch"]
+- !private ["s16RawRepresentableP", "post"]
+- !private ["s16RawRepresentableP", "put"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["9Alamofire7RequestC", "responseJSON"]
+- !private ["9Alamofire8ResponseP", "result"]
+- !private ["9Alamofire6ResultO", "failure"]
+- !private ["9Alamofire6ResultO", "success"]
+- !private ["s8SequenceP", "init"]
+- !private ["9Alamofire14SessionManagerC", "default"]
+- !private ["9Alamofire14SessionManagerC", "request"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["13NetworkViewer10TargetTypeP", "method"]
+- !private ["13NetworkViewer10TargetTypeP", "path"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Alamofire"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DateFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSON"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONEncoding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JsonParser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "alamofireManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "api"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "error"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "finish"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getMethod"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "headers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "parameters"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "parseJson"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "request"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sessionConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showApiLog"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "start"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "13NetworkViewer3APIO"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "9Alamofire11DataRequestC"
+- !private "9Alamofire12DataResponseV"
+- !private "10Foundation4DateV"
+- !private "So13DateFormatterC"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So9FormatterC"
+- !private "9Alamofire10HTTPMethodO"
+- "s8HashableP"
+- !private "10SwiftyJSON0B0V"
+- !private "9Alamofire12JSONEncodingV"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "13NetworkViewer10JsonParserC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "13NetworkViewer0A5LayerC"
+- !private "9Alamofire17ParameterEncodingP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "9Alamofire7RequestC"
+- !private "9Alamofire8ResponseP"
+- !private "9Alamofire6ResultO"
+- !private "s8SequenceP"
+- !private "9Alamofire14SessionManagerC"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "13NetworkViewer10TargetTypeP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "9dbc03ecbe2e5226bbd3efacb4eb364d"
