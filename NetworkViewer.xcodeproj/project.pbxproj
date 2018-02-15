@@ -11,6 +11,7 @@
 		522EE81E202DA65B000A5B20 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522EE81F202DA65B000A5B20 /* Alamofire.framework */; };
 		522EE820202DA65F000A5B20 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522EE821202DA65F000A5B20 /* SVProgressHUD.framework */; };
 		522EE824202DA6E0000A5B20 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522EE823202DA6E0000A5B20 /* UserModel.swift */; };
+		522EE83020356848000A5B20 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522EE82F20356848000A5B20 /* NextViewController.swift */; };
 		528CE152202DA2DE00A57A56 /* ApiPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528CE151202DA2DE00A57A56 /* ApiPath.swift */; };
 		528CE154202DA2EC00A57A56 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528CE153202DA2EC00A57A56 /* NetworkLayer.swift */; };
 		528CE156202DA2FC00A57A56 /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528CE155202DA2FC00A57A56 /* JsonParser.swift */; };
@@ -49,6 +50,7 @@
 		522EE81F202DA65B000A5B20 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		522EE821202DA65F000A5B20 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		522EE823202DA6E0000A5B20 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		522EE82F20356848000A5B20 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		528CE151202DA2DE00A57A56 /* ApiPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPath.swift; sourceTree = "<group>"; };
 		528CE153202DA2EC00A57A56 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
 		528CE155202DA2FC00A57A56 /* JsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				52A51AAD202D923500114EF7 /* Assets.xcassets */,
 				52A51AAF202D923500114EF7 /* LaunchScreen.storyboard */,
 				52A51AB2202D923500114EF7 /* Info.plist */,
+				522EE82F20356848000A5B20 /* NextViewController.swift */,
 			);
 			path = NetworkViewer;
 			sourceTree = "<group>";
@@ -507,6 +510,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				528CE154202DA2EC00A57A56 /* NetworkLayer.swift in Sources */,
+				522EE83020356848000A5B20 /* NextViewController.swift in Sources */,
 				528CE156202DA2FC00A57A56 /* JsonParser.swift in Sources */,
 				528CE152202DA2DE00A57A56 /* ApiPath.swift in Sources */,
 				52A51AA9202D923500114EF7 /* ViewController.swift in Sources */,

@@ -218,16 +218,27 @@ SWIFT_CLASS("_TtC13NetworkViewer9UserModel")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UILabel;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC13NetworkViewer14ViewController")
 @interface ViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified debug;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified name;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified mailAddress;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified selfIntro;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified birth;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified bloodType;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified age;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified date;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
 
 SWIFT_MODULE_NAMESPACE_POP
 #pragma clang diagnostic pop

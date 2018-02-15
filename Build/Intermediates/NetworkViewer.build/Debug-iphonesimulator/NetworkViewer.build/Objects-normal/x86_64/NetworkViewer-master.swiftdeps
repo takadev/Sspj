@@ -1,10 +1,11 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "739964e8e1bc54eb691e610f45c504c0"
-build_time: [1518169965, 678262000]
+build_time: [1518686255, 769036000]
 inputs:
   "/Users/TK/projects/Swift/NetworkViewer/NetworkViewer/Network/NetworkLayer.swift": [1518169212, 0]
-  "/Users/TK/projects/Swift/NetworkViewer/NetworkViewer/Network/JsonParser.swift": [1518169911, 0]
-  "/Users/TK/projects/Swift/NetworkViewer/NetworkViewer/Network/ApiPath.swift": [1518169104, 0]
-  "/Users/TK/projects/Swift/NetworkViewer/NetworkViewer/ViewController.swift": [1518164661, 0]
-  "/Users/TK/projects/Swift/NetworkViewer/NetworkViewer/Model/UserModel.swift": [1518169964, 0]
+  "/Users/TK/projects/Swift/NetworkViewer/NetworkViewer/NextViewController.swift": [1518678215, 0]
+  "/Users/TK/projects/Swift/NetworkViewer/NetworkViewer/Network/JsonParser.swift": [1518686254, 0]
+  "/Users/TK/projects/Swift/NetworkViewer/NetworkViewer/Network/ApiPath.swift": [1518591780, 0]
+  "/Users/TK/projects/Swift/NetworkViewer/NetworkViewer/ViewController.swift": [1518686101, 0]
+  "/Users/TK/projects/Swift/NetworkViewer/NetworkViewer/Model/UserModel.swift": [1518686116, 0]
   "/Users/TK/projects/Swift/NetworkViewer/NetworkViewer/AppDelegate.swift": [1518164661, 0]

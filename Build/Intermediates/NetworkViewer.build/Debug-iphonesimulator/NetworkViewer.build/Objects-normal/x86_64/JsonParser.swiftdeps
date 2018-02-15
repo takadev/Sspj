@@ -19,7 +19,11 @@ depends-member:
 - !private ["s23BidirectionalCollectionP", "init"]
 - !private ["s7CVarArgP", "JsonParser"]
 - !private ["s7CVarArgP", "UserModel"]
+- !private ["s7CVarArgP", "age"]
+- !private ["s7CVarArgP", "birth"]
+- !private ["s7CVarArgP", "blood"]
 - !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "debug"]
 - !private ["s7CVarArgP", "email"]
 - !private ["s7CVarArgP", "id"]
 - !private ["s7CVarArgP", "init"]
@@ -37,7 +41,11 @@ depends-member:
 - !private ["s10ComparableP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "JsonParser"]
 - !private ["s28CustomDebugStringConvertibleP", "UserModel"]
+- !private ["s28CustomDebugStringConvertibleP", "age"]
+- !private ["s28CustomDebugStringConvertibleP", "birth"]
+- !private ["s28CustomDebugStringConvertibleP", "blood"]
 - !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "debug"]
 - !private ["s28CustomDebugStringConvertibleP", "email"]
 - !private ["s28CustomDebugStringConvertibleP", "id"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
@@ -52,7 +60,11 @@ depends-member:
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s23CustomStringConvertibleP", "JsonParser"]
 - !private ["s23CustomStringConvertibleP", "UserModel"]
+- !private ["s23CustomStringConvertibleP", "age"]
+- !private ["s23CustomStringConvertibleP", "birth"]
+- !private ["s23CustomStringConvertibleP", "blood"]
 - !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "debug"]
 - !private ["s23CustomStringConvertibleP", "email"]
 - !private ["s23CustomStringConvertibleP", "id"]
 - !private ["s23CustomStringConvertibleP", "init"]
@@ -67,7 +79,11 @@ depends-member:
 - !private ["s9EncodableP", "init"]
 - !private ["s9EquatableP", "JsonParser"]
 - !private ["s9EquatableP", "UserModel"]
+- !private ["s9EquatableP", "age"]
+- !private ["s9EquatableP", "birth"]
+- !private ["s9EquatableP", "blood"]
 - !private ["s9EquatableP", "date"]
+- !private ["s9EquatableP", "debug"]
 - !private ["s9EquatableP", "email"]
 - !private ["s9EquatableP", "id"]
 - !private ["s9EquatableP", "init"]
@@ -110,7 +126,11 @@ depends-member:
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
 - !private ["s8HashableP", "JsonParser"]
 - !private ["s8HashableP", "UserModel"]
+- !private ["s8HashableP", "age"]
+- !private ["s8HashableP", "birth"]
+- !private ["s8HashableP", "blood"]
 - !private ["s8HashableP", "date"]
+- !private ["s8HashableP", "debug"]
 - !private ["s8HashableP", "email"]
 - !private ["s8HashableP", "id"]
 - !private ["s8HashableP", "init"]
@@ -142,7 +162,11 @@ depends-member:
 - ["So8NSObjectC", "JSON"]
 - ["So8NSObjectC", "JsonParser"]
 - !private ["So8NSObjectC", "UserModel"]
+- !private ["So8NSObjectC", "age"]
+- !private ["So8NSObjectC", "birth"]
+- !private ["So8NSObjectC", "blood"]
 - !private ["So8NSObjectC", "date"]
+- !private ["So8NSObjectC", "debug"]
 - !private ["So8NSObjectC", "email"]
 - !private ["So8NSObjectC", "id"]
 - ["So8NSObjectC", "init"]
@@ -154,7 +178,11 @@ depends-member:
 - ["So8NSObjectC", ""]
 - !private ["So16NSObjectProtocolP", "JsonParser"]
 - !private ["So16NSObjectProtocolP", "UserModel"]
+- !private ["So16NSObjectProtocolP", "age"]
+- !private ["So16NSObjectProtocolP", "birth"]
+- !private ["So16NSObjectProtocolP", "blood"]
 - !private ["So16NSObjectProtocolP", "date"]
+- !private ["So16NSObjectProtocolP", "debug"]
 - !private ["So16NSObjectProtocolP", "email"]
 - !private ["So16NSObjectProtocolP", "id"]
 - !private ["So16NSObjectProtocolP", "init"]
@@ -180,7 +208,11 @@ depends-member:
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["13NetworkViewer9UserModelC", "age"]
+- !private ["13NetworkViewer9UserModelC", "birth"]
+- !private ["13NetworkViewer9UserModelC", "blood"]
 - !private ["13NetworkViewer9UserModelC", "date"]
+- !private ["13NetworkViewer9UserModelC", "debug"]
 - !private ["13NetworkViewer9UserModelC", "email"]
 - !private ["13NetworkViewer9UserModelC", "id"]
 - !private ["13NetworkViewer9UserModelC", "init"]
@@ -203,7 +235,11 @@ depends-member:
 - !private ["s14_IndexableBaseP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "JsonParser"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UserModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "age"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "birth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "blood"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "debug"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "email"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
@@ -292,10 +328,16 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
 - "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
 - "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
 - "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
 - "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
 - "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
 - "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 interface-hash: "335dbc0741bb59d62f716c03fc42a5e6"

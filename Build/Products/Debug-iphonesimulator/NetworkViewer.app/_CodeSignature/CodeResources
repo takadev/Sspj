@@ -18,7 +18,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		U/+HSQpRTRivgwGkR+auxmNfyVo=
+		R4YQjcpkXJJbx7zHHCYOhpxkDIw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
-		9WaqPwF6ze0Am0p/dy3g8YtFtDs=
+		3NlmCFzvu9YAGXOCVf8w2K055g4=
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
@@ -39,6 +39,22 @@
 		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
 		<data>
 		yW9tavB+A1HZGNBdyS0ILyf2PQE=
+		</data>
+		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
+		<data>
+		ooz0sIAaLKBGoFU5iKq8DR11NmY=
+		</data>
+		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
+		<data>
+		R/knOPjsjrJNiVtUa2S4kYE749M=
+		</data>
+		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
+		<data>
+		qcVgsOCxIzxwcNXLWXgRrNjnuT8=
+		</data>
+		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
+		<data>
+		K7jOt4uC+lqy/StneXlQVk21axY=
 		</data>
 		<key>Frameworks/SVProgressHUD.framework/Info.plist</key>
 		<data>
@@ -112,6 +128,31 @@
 		<data>
 		Bn7+F4giTz6UrXCaatma++qE/Go=
 		</data>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<data>
+		CYfyvPIGUR84QvCD7SuNDvG6Bxc=
+		</data>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<data>
+		M3EBma1BpAxt7iGIjYcrm9BnNOc=
+		</data>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<data>
+		5EUn1qFgVTwSkfSLCubcLwgrx0c=
+		</data>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TuBj57ZP6zBqcL9HttO2Rucaw9E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<data>
+		Etc/8BPenX54rv1uBx24u4bnqTg=
+		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
 		U7vCU+FGaFpWMe3nP4L1T1eaCgY=
@@ -166,11 +207,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nqpXvyI9nPTbl+qZ3JzRreY6GRc=
+		wN/0BBlydhat6eZ+7Jywx8GRz3M=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>PlugIns/NetworkViewerTests.xctest/Info.plist</key>
+		<data>
+		MNIPd1jSDx9ck+jbyzU5sMe927w=
 		</data>
 		<key>libswiftRemoteMirror.dylib</key>
 		<data>
@@ -216,11 +261,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			U/+HSQpRTRivgwGkR+auxmNfyVo=
+			R4YQjcpkXJJbx7zHHCYOhpxkDIw=
 			</data>
 			<key>hash2</key>
 			<data>
-			rxUfj96XPqZNMo0Qt/Zsy15klG4WdcLCUSxQ5eBZCPE=
+			jnbtkB78xbiTgngwt6/Es+MaipkFN6Dr3J/Z1b2cR3I=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -238,11 +283,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9WaqPwF6ze0Am0p/dy3g8YtFtDs=
+			3NlmCFzvu9YAGXOCVf8w2K055g4=
 			</data>
 			<key>hash2</key>
 			<data>
-			TRD4gAndEe49ThNTyB1hZV5KX/2GUFJdAc9enFgJTR0=
+			pSM90ip3TKfyKyWUYi7TqGwhZ88/puqrB4BYk1XWizc=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
@@ -276,6 +321,50 @@
 			<key>hash2</key>
 			<data>
 			hyjm14JfPg+zIvfSvM4Skmx2um8G18Fifz4Pob2q7vI=
+			</data>
+		</dict>
+		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ooz0sIAaLKBGoFU5iKq8DR11NmY=
+			</data>
+			<key>hash2</key>
+			<data>
+			QTZkTlnemyTcrFMb3v3GdQcfmpRodaOjtevd5TjxiiY=
+			</data>
+		</dict>
+		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			R/knOPjsjrJNiVtUa2S4kYE749M=
+			</data>
+			<key>hash2</key>
+			<data>
+			wLDjbULmM78l0rN5jh2/yPax234qVZL29OQBQmdYmOU=
+			</data>
+		</dict>
+		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qcVgsOCxIzxwcNXLWXgRrNjnuT8=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZARlo4LD/z4nYhaCEocjb6nPjuZDCrLsQzn0n4GVr3s=
+			</data>
+		</dict>
+		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			K7jOt4uC+lqy/StneXlQVk21axY=
+			</data>
+			<key>hash2</key>
+			<data>
+			VzM0aDQjkmLy+IyPasdn9DeGkOOTuNMbKUMz+3efAaU=
 			</data>
 		</dict>
 		<key>Frameworks/SVProgressHUD.framework/Info.plist</key>
@@ -476,6 +565,63 @@
 			LY/89bnkUoQs6iNwuAnhr1B32X1A7wqLvQPXrvmXc2I=
 			</data>
 		</dict>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CYfyvPIGUR84QvCD7SuNDvG6Bxc=
+			</data>
+			<key>hash2</key>
+			<data>
+			Xsgm2dBly62EneiB04ryti89smi53XIXAOtYLFyW4ZE=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M3EBma1BpAxt7iGIjYcrm9BnNOc=
+			</data>
+			<key>hash2</key>
+			<data>
+			qAlGOWS6ltLA/WrYd4Rz6EHPivttCiNu41NTW7ulBAI=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5EUn1qFgVTwSkfSLCubcLwgrx0c=
+			</data>
+			<key>hash2</key>
+			<data>
+			55ZdMLgNGz7Q67XNAv/M4f4uXy0R2d5+tlHRhlkL8t4=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TuBj57ZP6zBqcL9HttO2Rucaw9E=
+			</data>
+			<key>hash2</key>
+			<data>
+			89RGkjZaKuewYnjpzwhIswhqfrU8+pcEXqM/DHVrUmo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Etc/8BPenX54rv1uBx24u4bnqTg=
+			</data>
+			<key>hash2</key>
+			<data>
+			Jh5i9giCFfo5GhN25CjMKdDJ6Kdlz/p4L95RITR+WeA=
+			</data>
+		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<dict>
 			<key>hash</key>
@@ -617,6 +763,17 @@
 			<key>hash2</key>
 			<data>
 			q8ly4PC/egcohqeYYBcewzxqP+ykhGUxfIusRMeaZ58=
+			</data>
+		</dict>
+		<key>PlugIns/NetworkViewerTests.xctest/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MNIPd1jSDx9ck+jbyzU5sMe927w=
+			</data>
+			<key>hash2</key>
+			<data>
+			X2SXkEyd8CixhZqickwWy5mupB0ZjJqF94V7pn4Qn40=
 			</data>
 		</dict>
 		<key>libswiftRemoteMirror.dylib</key>

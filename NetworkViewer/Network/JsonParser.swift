@@ -24,7 +24,11 @@ class JsonParser: NSObject {
         userModel.name = json["name"].string
         userModel.email = json["email"].string
         userModel.introduction = json["introduction"].string
+        userModel.birth = json["birth"].string
+        userModel.blood = json["blood"].string
+        userModel.age = json["age"].string
         userModel.date = json["date"].string
+        userModel.debug = json["param"].string
         
         return userModel
     }

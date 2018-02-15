@@ -24,7 +24,11 @@ depends-member:
 - ["s8HashableP", ""]
 - ["So8NSObjectC", "Int"]
 - ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "age"]
+- ["So8NSObjectC", "birth"]
+- ["So8NSObjectC", "blood"]
 - ["So8NSObjectC", "date"]
+- ["So8NSObjectC", "debug"]
 - ["So8NSObjectC", "email"]
 - ["So8NSObjectC", "id"]
 - ["So8NSObjectC", "init"]
@@ -35,7 +39,11 @@ depends-member:
 - ["So16NSObjectProtocolP", ""]
 - ["13NetworkViewer9UserModelC", "Int"]
 - ["13NetworkViewer9UserModelC", "String"]
+- ["13NetworkViewer9UserModelC", "age"]
+- ["13NetworkViewer9UserModelC", "birth"]
+- ["13NetworkViewer9UserModelC", "blood"]
 - ["13NetworkViewer9UserModelC", "date"]
+- ["13NetworkViewer9UserModelC", "debug"]
 - ["13NetworkViewer9UserModelC", "deinit"]
 - ["13NetworkViewer9UserModelC", "email"]
 - ["13NetworkViewer9UserModelC", "id"]
@@ -71,10 +79,16 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
 - "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
 - "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
 - "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
 - "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
 - "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
 - "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
-interface-hash: "e84dbfbaaa93321be4e786b7843b5db7"
+interface-hash: "c04ba2abf352733a754ea59e54e5e91c"

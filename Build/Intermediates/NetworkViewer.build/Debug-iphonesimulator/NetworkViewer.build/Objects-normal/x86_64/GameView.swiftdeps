@@ -1,0 +1,573 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GameView"
+provides-nominal:
+- "13NetworkViewer8GameViewC"
+provides-member:
+- ["13NetworkViewer8GameViewC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "CGRect"
+- "ChangeSceneProtocol"
+- !private "GameScene"
+- "GameView"
+- "NSCoder"
+- !private "ResultScene"
+- "SKScene"
+- "SKView"
+- !private "SceneManager"
+- !private "StringLiteralType"
+- !private "TitleScene"
+- !private "fatalError"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So15CALayerDelegateP", "GameScene"]
+- !private ["So15CALayerDelegateP", "ResultScene"]
+- !private ["So15CALayerDelegateP", "SceneManager"]
+- !private ["So15CALayerDelegateP", "TitleScene"]
+- !private ["So15CALayerDelegateP", "bounds"]
+- ["So15CALayerDelegateP", "changeScene"]
+- !private ["So15CALayerDelegateP", "fatalError"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "setUpGameView"]
+- !private ["So15CALayerDelegateP", "switchingGamaScene"]
+- !private ["So15CALayerDelegateP", "switchingResultScene"]
+- !private ["So15CALayerDelegateP", "switchingTitleScene"]
+- ["So15CALayerDelegateP", ""]
+- !private ["SC6CGRectV", "size"]
+- !private ["s7CVarArgP", "GameScene"]
+- !private ["s7CVarArgP", "ResultScene"]
+- !private ["s7CVarArgP", "SceneManager"]
+- !private ["s7CVarArgP", "TitleScene"]
+- !private ["s7CVarArgP", "bounds"]
+- ["s7CVarArgP", "changeScene"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "gameScene"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isKindOfClass"]
+- !private ["s7CVarArgP", "resultScene"]
+- !private ["s7CVarArgP", "setUpGameView"]
+- !private ["s7CVarArgP", "switchingGamaScene"]
+- !private ["s7CVarArgP", "switchingResultScene"]
+- !private ["s7CVarArgP", "switchingTitleScene"]
+- !private ["s7CVarArgP", "titleScene"]
+- ["s7CVarArgP", ""]
+- !private ["13NetworkViewer19ChangeSceneProtocolP", "GameScene"]
+- !private ["13NetworkViewer19ChangeSceneProtocolP", "ResultScene"]
+- !private ["13NetworkViewer19ChangeSceneProtocolP", "SceneManager"]
+- !private ["13NetworkViewer19ChangeSceneProtocolP", "TitleScene"]
+- !private ["13NetworkViewer19ChangeSceneProtocolP", "bounds"]
+- ["13NetworkViewer19ChangeSceneProtocolP", "changeScene"]
+- !private ["13NetworkViewer19ChangeSceneProtocolP", "fatalError"]
+- !private ["13NetworkViewer19ChangeSceneProtocolP", "setUpGameView"]
+- !private ["13NetworkViewer19ChangeSceneProtocolP", "switchingGamaScene"]
+- !private ["13NetworkViewer19ChangeSceneProtocolP", "switchingResultScene"]
+- !private ["13NetworkViewer19ChangeSceneProtocolP", "switchingTitleScene"]
+- ["13NetworkViewer19ChangeSceneProtocolP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "GameScene"]
+- !private ["s28CustomDebugStringConvertibleP", "ResultScene"]
+- !private ["s28CustomDebugStringConvertibleP", "SceneManager"]
+- !private ["s28CustomDebugStringConvertibleP", "TitleScene"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- ["s28CustomDebugStringConvertibleP", "changeScene"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "gameScene"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isKindOfClass"]
+- !private ["s28CustomDebugStringConvertibleP", "resultScene"]
+- !private ["s28CustomDebugStringConvertibleP", "setUpGameView"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "switchingGamaScene"]
+- !private ["s28CustomDebugStringConvertibleP", "switchingResultScene"]
+- !private ["s28CustomDebugStringConvertibleP", "switchingTitleScene"]
+- !private ["s28CustomDebugStringConvertibleP", "titleScene"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s23CustomStringConvertibleP", "GameScene"]
+- !private ["s23CustomStringConvertibleP", "ResultScene"]
+- !private ["s23CustomStringConvertibleP", "SceneManager"]
+- !private ["s23CustomStringConvertibleP", "TitleScene"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- ["s23CustomStringConvertibleP", "changeScene"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "gameScene"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isKindOfClass"]
+- !private ["s23CustomStringConvertibleP", "resultScene"]
+- !private ["s23CustomStringConvertibleP", "setUpGameView"]
+- !private ["s23CustomStringConvertibleP", "switchingGamaScene"]
+- !private ["s23CustomStringConvertibleP", "switchingResultScene"]
+- !private ["s23CustomStringConvertibleP", "switchingTitleScene"]
+- !private ["s23CustomStringConvertibleP", "titleScene"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "size"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "size"]
+- !private ["s9EquatableP", "GameScene"]
+- !private ["s9EquatableP", "ResultScene"]
+- !private ["s9EquatableP", "SceneManager"]
+- !private ["s9EquatableP", "TitleScene"]
+- !private ["s9EquatableP", "bounds"]
+- ["s9EquatableP", "changeScene"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "gameScene"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isKindOfClass"]
+- !private ["s9EquatableP", "resultScene"]
+- !private ["s9EquatableP", "setUpGameView"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "switchingGamaScene"]
+- !private ["s9EquatableP", "switchingResultScene"]
+- !private ["s9EquatableP", "switchingTitleScene"]
+- !private ["s9EquatableP", "titleScene"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["13NetworkViewer8GameViewC", "CGRect"]
+- !private ["13NetworkViewer8GameViewC", "GameScene"]
+- ["13NetworkViewer8GameViewC", "NSCoder"]
+- !private ["13NetworkViewer8GameViewC", "ResultScene"]
+- ["13NetworkViewer8GameViewC", "SKScene"]
+- !private ["13NetworkViewer8GameViewC", "SceneManager"]
+- !private ["13NetworkViewer8GameViewC", "TitleScene"]
+- !private ["13NetworkViewer8GameViewC", "bounds"]
+- ["13NetworkViewer8GameViewC", "changeScene"]
+- ["13NetworkViewer8GameViewC", "deinit"]
+- !private ["13NetworkViewer8GameViewC", "fatalError"]
+- ["13NetworkViewer8GameViewC", "init"]
+- ["13NetworkViewer8GameViewC", "setUpGameView"]
+- ["13NetworkViewer8GameViewC", "switchingGamaScene"]
+- ["13NetworkViewer8GameViewC", "switchingResultScene"]
+- ["13NetworkViewer8GameViewC", "switchingTitleScene"]
+- !private ["s8HashableP", "GameScene"]
+- !private ["s8HashableP", "ResultScene"]
+- !private ["s8HashableP", "SceneManager"]
+- !private ["s8HashableP", "TitleScene"]
+- !private ["s8HashableP", "bounds"]
+- ["s8HashableP", "changeScene"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "gameScene"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isKindOfClass"]
+- !private ["s8HashableP", "resultScene"]
+- !private ["s8HashableP", "setUpGameView"]
+- !private ["s8HashableP", "switchingGamaScene"]
+- !private ["s8HashableP", "switchingResultScene"]
+- !private ["s8HashableP", "switchingTitleScene"]
+- !private ["s8HashableP", "titleScene"]
+- ["s8HashableP", ""]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "GameScene"]
+- !private ["So8NSCodingP", "ResultScene"]
+- !private ["So8NSCodingP", "SceneManager"]
+- !private ["So8NSCodingP", "TitleScene"]
+- !private ["So8NSCodingP", "bounds"]
+- ["So8NSCodingP", "changeScene"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isKindOfClass"]
+- !private ["So8NSCodingP", "setUpGameView"]
+- !private ["So8NSCodingP", "switchingGamaScene"]
+- !private ["So8NSCodingP", "switchingResultScene"]
+- !private ["So8NSCodingP", "switchingTitleScene"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isKindOfClass"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "CGRect"]
+- !private ["So8NSObjectC", "GameScene"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "ResultScene"]
+- ["So8NSObjectC", "SKScene"]
+- !private ["So8NSObjectC", "SceneManager"]
+- !private ["So8NSObjectC", "TitleScene"]
+- !private ["So8NSObjectC", "bounds"]
+- ["So8NSObjectC", "changeScene"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "gameScene"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isKindOfClass"]
+- !private ["So8NSObjectC", "resultScene"]
+- ["So8NSObjectC", "setUpGameView"]
+- ["So8NSObjectC", "switchingGamaScene"]
+- ["So8NSObjectC", "switchingResultScene"]
+- ["So8NSObjectC", "switchingTitleScene"]
+- !private ["So8NSObjectC", "titleScene"]
+- !private ["So16NSObjectProtocolP", "GameScene"]
+- !private ["So16NSObjectProtocolP", "ResultScene"]
+- !private ["So16NSObjectProtocolP", "SceneManager"]
+- !private ["So16NSObjectProtocolP", "TitleScene"]
+- !private ["So16NSObjectProtocolP", "bounds"]
+- ["So16NSObjectProtocolP", "changeScene"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "gameScene"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isKindOfClass"]
+- !private ["So16NSObjectProtocolP", "resultScene"]
+- !private ["So16NSObjectProtocolP", "setUpGameView"]
+- !private ["So16NSObjectProtocolP", "switchingGamaScene"]
+- !private ["So16NSObjectProtocolP", "switchingResultScene"]
+- !private ["So16NSObjectProtocolP", "switchingTitleScene"]
+- !private ["So16NSObjectProtocolP", "titleScene"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["So12SKEffectNodeC", "isKindOfClass"]
+- !private ["So6SKNodeC", "isKindOfClass"]
+- !private ["So7SKSceneC", "isKindOfClass"]
+- ["So6SKViewC", "CGRect"]
+- !private ["So6SKViewC", "GameScene"]
+- ["So6SKViewC", "NSCoder"]
+- !private ["So6SKViewC", "ResultScene"]
+- ["So6SKViewC", "SKScene"]
+- !private ["So6SKViewC", "SceneManager"]
+- !private ["So6SKViewC", "TitleScene"]
+- !private ["So6SKViewC", "bounds"]
+- ["So6SKViewC", "changeScene"]
+- !private ["So6SKViewC", "fatalError"]
+- ["So6SKViewC", "init"]
+- ["So6SKViewC", "setUpGameView"]
+- ["So6SKViewC", "switchingGamaScene"]
+- ["So6SKViewC", "switchingResultScene"]
+- ["So6SKViewC", "switchingTitleScene"]
+- ["So6SKViewC", ""]
+- !private ["So10SKWarpableP", "isKindOfClass"]
+- !private ["13NetworkViewer12SceneManagerC", "changeScene"]
+- !private ["13NetworkViewer12SceneManagerC", "deinit"]
+- !private ["13NetworkViewer12SceneManagerC", "gameScene"]
+- !private ["13NetworkViewer12SceneManagerC", "resultScene"]
+- !private ["13NetworkViewer12SceneManagerC", "titleScene"]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "GameScene"]
+- !private ["So29UIAccessibilityIdentificationP", "ResultScene"]
+- !private ["So29UIAccessibilityIdentificationP", "SceneManager"]
+- !private ["So29UIAccessibilityIdentificationP", "TitleScene"]
+- !private ["So29UIAccessibilityIdentificationP", "bounds"]
+- ["So29UIAccessibilityIdentificationP", "changeScene"]
+- !private ["So29UIAccessibilityIdentificationP", "fatalError"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "setUpGameView"]
+- !private ["So29UIAccessibilityIdentificationP", "switchingGamaScene"]
+- !private ["So29UIAccessibilityIdentificationP", "switchingResultScene"]
+- !private ["So29UIAccessibilityIdentificationP", "switchingTitleScene"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "GameScene"]
+- !private ["So12UIAppearanceP", "ResultScene"]
+- !private ["So12UIAppearanceP", "SceneManager"]
+- !private ["So12UIAppearanceP", "TitleScene"]
+- !private ["So12UIAppearanceP", "bounds"]
+- ["So12UIAppearanceP", "changeScene"]
+- !private ["So12UIAppearanceP", "fatalError"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "setUpGameView"]
+- !private ["So12UIAppearanceP", "switchingGamaScene"]
+- !private ["So12UIAppearanceP", "switchingResultScene"]
+- !private ["So12UIAppearanceP", "switchingTitleScene"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "GameScene"]
+- !private ["So21UIAppearanceContainerP", "ResultScene"]
+- !private ["So21UIAppearanceContainerP", "SceneManager"]
+- !private ["So21UIAppearanceContainerP", "TitleScene"]
+- !private ["So21UIAppearanceContainerP", "bounds"]
+- ["So21UIAppearanceContainerP", "changeScene"]
+- !private ["So21UIAppearanceContainerP", "fatalError"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "setUpGameView"]
+- !private ["So21UIAppearanceContainerP", "switchingGamaScene"]
+- !private ["So21UIAppearanceContainerP", "switchingResultScene"]
+- !private ["So21UIAppearanceContainerP", "switchingTitleScene"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "GameScene"]
+- !private ["So17UICoordinateSpaceP", "ResultScene"]
+- !private ["So17UICoordinateSpaceP", "SceneManager"]
+- !private ["So17UICoordinateSpaceP", "TitleScene"]
+- !private ["So17UICoordinateSpaceP", "bounds"]
+- ["So17UICoordinateSpaceP", "changeScene"]
+- !private ["So17UICoordinateSpaceP", "fatalError"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "setUpGameView"]
+- !private ["So17UICoordinateSpaceP", "switchingGamaScene"]
+- !private ["So17UICoordinateSpaceP", "switchingResultScene"]
+- !private ["So17UICoordinateSpaceP", "switchingTitleScene"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "GameScene"]
+- !private ["So13UIDynamicItemP", "ResultScene"]
+- !private ["So13UIDynamicItemP", "SceneManager"]
+- !private ["So13UIDynamicItemP", "TitleScene"]
+- !private ["So13UIDynamicItemP", "bounds"]
+- ["So13UIDynamicItemP", "changeScene"]
+- !private ["So13UIDynamicItemP", "fatalError"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "setUpGameView"]
+- !private ["So13UIDynamicItemP", "switchingGamaScene"]
+- !private ["So13UIDynamicItemP", "switchingResultScene"]
+- !private ["So13UIDynamicItemP", "switchingTitleScene"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "GameScene"]
+- !private ["So18UIFocusEnvironmentP", "ResultScene"]
+- !private ["So18UIFocusEnvironmentP", "SceneManager"]
+- !private ["So18UIFocusEnvironmentP", "TitleScene"]
+- !private ["So18UIFocusEnvironmentP", "bounds"]
+- ["So18UIFocusEnvironmentP", "changeScene"]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isKindOfClass"]
+- !private ["So18UIFocusEnvironmentP", "setUpGameView"]
+- !private ["So18UIFocusEnvironmentP", "switchingGamaScene"]
+- !private ["So18UIFocusEnvironmentP", "switchingResultScene"]
+- !private ["So18UIFocusEnvironmentP", "switchingTitleScene"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "GameScene"]
+- !private ["So11UIFocusItemP", "ResultScene"]
+- !private ["So11UIFocusItemP", "SceneManager"]
+- !private ["So11UIFocusItemP", "TitleScene"]
+- !private ["So11UIFocusItemP", "bounds"]
+- ["So11UIFocusItemP", "changeScene"]
+- !private ["So11UIFocusItemP", "fatalError"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "isKindOfClass"]
+- !private ["So11UIFocusItemP", "setUpGameView"]
+- !private ["So11UIFocusItemP", "switchingGamaScene"]
+- !private ["So11UIFocusItemP", "switchingResultScene"]
+- !private ["So11UIFocusItemP", "switchingTitleScene"]
+- ["So11UIFocusItemP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "GameScene"]
+- !private ["So30UIPasteConfigurationSupportingP", "ResultScene"]
+- !private ["So30UIPasteConfigurationSupportingP", "SceneManager"]
+- !private ["So30UIPasteConfigurationSupportingP", "TitleScene"]
+- !private ["So30UIPasteConfigurationSupportingP", "bounds"]
+- ["So30UIPasteConfigurationSupportingP", "changeScene"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isKindOfClass"]
+- !private ["So30UIPasteConfigurationSupportingP", "setUpGameView"]
+- !private ["So30UIPasteConfigurationSupportingP", "switchingGamaScene"]
+- !private ["So30UIPasteConfigurationSupportingP", "switchingResultScene"]
+- !private ["So30UIPasteConfigurationSupportingP", "switchingTitleScene"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "CGRect"]
+- !private ["So11UIResponderC", "GameScene"]
+- ["So11UIResponderC", "NSCoder"]
+- !private ["So11UIResponderC", "ResultScene"]
+- ["So11UIResponderC", "SKScene"]
+- !private ["So11UIResponderC", "SceneManager"]
+- !private ["So11UIResponderC", "TitleScene"]
+- !private ["So11UIResponderC", "bounds"]
+- ["So11UIResponderC", "changeScene"]
+- !private ["So11UIResponderC", "fatalError"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isKindOfClass"]
+- ["So11UIResponderC", "setUpGameView"]
+- ["So11UIResponderC", "switchingGamaScene"]
+- ["So11UIResponderC", "switchingResultScene"]
+- ["So11UIResponderC", "switchingTitleScene"]
+- !private ["So30UIResponderStandardEditActionsP", "GameScene"]
+- !private ["So30UIResponderStandardEditActionsP", "ResultScene"]
+- !private ["So30UIResponderStandardEditActionsP", "SceneManager"]
+- !private ["So30UIResponderStandardEditActionsP", "TitleScene"]
+- !private ["So30UIResponderStandardEditActionsP", "bounds"]
+- ["So30UIResponderStandardEditActionsP", "changeScene"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isKindOfClass"]
+- !private ["So30UIResponderStandardEditActionsP", "setUpGameView"]
+- !private ["So30UIResponderStandardEditActionsP", "switchingGamaScene"]
+- !private ["So30UIResponderStandardEditActionsP", "switchingResultScene"]
+- !private ["So30UIResponderStandardEditActionsP", "switchingTitleScene"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So18UITraitEnvironmentP", "GameScene"]
+- !private ["So18UITraitEnvironmentP", "ResultScene"]
+- !private ["So18UITraitEnvironmentP", "SceneManager"]
+- !private ["So18UITraitEnvironmentP", "TitleScene"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- ["So18UITraitEnvironmentP", "changeScene"]
+- !private ["So18UITraitEnvironmentP", "fatalError"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "setUpGameView"]
+- !private ["So18UITraitEnvironmentP", "switchingGamaScene"]
+- !private ["So18UITraitEnvironmentP", "switchingResultScene"]
+- !private ["So18UITraitEnvironmentP", "switchingTitleScene"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "CGRect"]
+- !private ["So6UIViewC", "GameScene"]
+- ["So6UIViewC", "NSCoder"]
+- !private ["So6UIViewC", "ResultScene"]
+- ["So6UIViewC", "SKScene"]
+- !private ["So6UIViewC", "SceneManager"]
+- !private ["So6UIViewC", "TitleScene"]
+- !private ["So6UIViewC", "bounds"]
+- ["So6UIViewC", "changeScene"]
+- !private ["So6UIViewC", "fatalError"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "setUpGameView"]
+- ["So6UIViewC", "switchingGamaScene"]
+- ["So6UIViewC", "switchingResultScene"]
+- ["So6UIViewC", "switchingTitleScene"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "GameScene"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "ResultScene"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "SceneManager"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "TitleScene"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bounds"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "changeScene"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "fatalError"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setUpGameView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "switchingGamaScene"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "switchingResultScene"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "switchingTitleScene"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GameScene"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ResultScene"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SceneManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TitleScene"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "changeScene"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "gameScene"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isKindOfClass"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resultScene"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUpGameView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "switchingGamaScene"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "switchingResultScene"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "switchingTitleScene"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "titleScene"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- "So15CALayerDelegateP"
+- !private "SC6CGRectV"
+- "s7CVarArgP"
+- "13NetworkViewer19ChangeSceneProtocolP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "13NetworkViewer8GameViewC"
+- "s8HashableP"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "So12SKEffectNodeC"
+- !private "So6SKNodeC"
+- !private "So7SKSceneC"
+- "So6SKViewC"
+- !private "So10SKWarpableP"
+- !private "13NetworkViewer12SceneManagerC"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s23_BidirectionalIndexableP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "38e034e06ff7d19fb691b6c5d2b98a82"

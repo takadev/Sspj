@@ -1,0 +1,177 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SceneManager"
+provides-nominal:
+- "13NetworkViewer12SceneManagerC"
+provides-member:
+- ["13NetworkViewer12SceneManagerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CGSize"
+- "GameScene"
+- "NSObject"
+- "NSTimeInterval"
+- "SKScene"
+- !private "SKTransition"
+- "SKView"
+- "SceneManager"
+depends-member:
+- !private ["So15CALayerDelegateP", "presentScene"]
+- !private ["s7CVarArgP", "GameScene"]
+- !private ["s7CVarArgP", "SKTransition"]
+- !private ["s7CVarArgP", "fadeWithDuration"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "presentScene"]
+- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "GameScene"]
+- !private ["s28CustomDebugStringConvertibleP", "SKTransition"]
+- !private ["s28CustomDebugStringConvertibleP", "fadeWithDuration"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "presentScene"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "GameScene"]
+- !private ["s23CustomStringConvertibleP", "SKTransition"]
+- !private ["s23CustomStringConvertibleP", "fadeWithDuration"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "presentScene"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9EquatableP", "GameScene"]
+- !private ["s9EquatableP", "SKTransition"]
+- !private ["s9EquatableP", "fadeWithDuration"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "presentScene"]
+- ["s9EquatableP", ""]
+- !private ["13NetworkViewer9GameSceneC", "init"]
+- !private ["s8HashableP", "GameScene"]
+- !private ["s8HashableP", "SKTransition"]
+- !private ["s8HashableP", "fadeWithDuration"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "presentScene"]
+- ["s8HashableP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "presentScene"]
+- !private ["So9NSCopyingP", "fadeWithDuration"]
+- !private ["So9NSCopyingP", "init"]
+- ["So8NSObjectC", "CGSize"]
+- ["So8NSObjectC", "GameScene"]
+- ["So8NSObjectC", "NSTimeInterval"]
+- ["So8NSObjectC", "SKScene"]
+- !private ["So8NSObjectC", "SKTransition"]
+- ["So8NSObjectC", "SKView"]
+- !private ["So8NSObjectC", "fadeWithDuration"]
+- ["So8NSObjectC", "gameScene"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "presentScene"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "GameScene"]
+- !private ["So16NSObjectProtocolP", "SKTransition"]
+- !private ["So16NSObjectProtocolP", "fadeWithDuration"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "presentScene"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So12SKEffectNodeC", "init"]
+- !private ["So6SKNodeC", "init"]
+- !private ["So7SKSceneC", "init"]
+- !private ["So12SKTransitionC", "fadeWithDuration"]
+- !private ["So6SKViewC", "presentScene"]
+- !private ["So10SKWarpableP", "init"]
+- ["13NetworkViewer12SceneManagerC", "CGSize"]
+- ["13NetworkViewer12SceneManagerC", "GameScene"]
+- ["13NetworkViewer12SceneManagerC", "NSTimeInterval"]
+- ["13NetworkViewer12SceneManagerC", "SKScene"]
+- !private ["13NetworkViewer12SceneManagerC", "SKTransition"]
+- ["13NetworkViewer12SceneManagerC", "SKView"]
+- ["13NetworkViewer12SceneManagerC", "deinit"]
+- ["13NetworkViewer12SceneManagerC", "gameScene"]
+- ["13NetworkViewer12SceneManagerC", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "presentScene"]
+- !private ["So12UIAppearanceP", "presentScene"]
+- !private ["So21UIAppearanceContainerP", "presentScene"]
+- !private ["So17UICoordinateSpaceP", "presentScene"]
+- !private ["So13UIDynamicItemP", "presentScene"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "presentScene"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "presentScene"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentScene"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "presentScene"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "presentScene"]
+- !private ["So18UITraitEnvironmentP", "presentScene"]
+- !private ["So6UIViewC", "presentScene"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "presentScene"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GameScene"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SKTransition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fadeWithDuration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "presentScene"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- !private "13NetworkViewer9GameSceneC"
+- "s8HashableP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So12SKEffectNodeC"
+- !private "So6SKNodeC"
+- !private "So7SKSceneC"
+- !private "So12SKTransitionC"
+- !private "So6SKViewC"
+- !private "So10SKWarpableP"
+- "13NetworkViewer12SceneManagerC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/TK/projects/Swift/NetworkViewer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "5698b7ae069206b131ea23dd6744001e"

@@ -11,9 +11,13 @@ import SVProgressHUD
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var debug: UILabel!
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var mailAddress: UILabel!
     @IBOutlet weak var selfIntro: UILabel!
+    @IBOutlet weak var birth: UILabel!
+    @IBOutlet weak var bloodType: UILabel!
+    @IBOutlet weak var age: UILabel!
     @IBOutlet weak var date: UILabel!
     
     
@@ -23,6 +27,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         self.initialize()
+        self.executeGetUserApi(userId: 1)
     }
     
     private func initialize() {
@@ -38,11 +43,11 @@ class ViewController: UIViewController {
 }
 
 extension ViewController {
-    private func executeGetUserApi() {
+    private func executeGetUserApi(userId : Int) {
         let network = NetworkLayer()
         
         network.setStartHandler {()->() in
-            SVProgressHUD.show(withStatus: "Loading...")
+            SVProgressHUD.show()
         }
         network.setErrorHandler {(error: NSError)->() in
             // 通信失敗時
@@ -56,15 +61,18 @@ extension ViewController {
                 
                 guard let data = result as? UserModel else { return }
                 // サーバーから取得した値を各パラメータにセットし画面へ表示
+                self.debug.text = data.debug
                 self.name.text = data.name
                 self.mailAddress.text = data.email
                 self.selfIntro.text = data.introduction
+                self.birth.text = data.birth
+                self.bloodType.text = data.blood
+                self.age.text = data.age
                 self.date.text = data.date
             }
         }
         
         // パラメータセット
-        let userId = 1
         // API実行
         network.requestApi(api: .profile(userId), parameters: nil, headers: nil)
     }
